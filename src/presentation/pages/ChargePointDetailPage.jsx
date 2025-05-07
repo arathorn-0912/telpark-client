@@ -24,7 +24,6 @@ export default function ChargePointDetailPage() {
     <div>
       <button className="btn secondary" onClick={() => navigate("/chargepoints")}>Back to Charge Points</button>
       <ChargePointDetail chargePoint={chargePoint} />
-      <button className="btn" onClick={() => navigate(`/chargepoints/${id}/edit`)}>Edit</button>
     </div>
   );
 } 

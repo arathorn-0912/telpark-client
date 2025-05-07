@@ -24,7 +24,6 @@ export default function OrganizationDetailPage() {
     <div>
       <button className="btn secondary" onClick={() => navigate("/organizations")}>Back to Organizations</button>
       <OrganizationDetail organization={organization} />
-      <button className="btn" onClick={() => navigate(`/organizations/${id}/edit`)}>Edit</button>
     </div>
   );
 } 
