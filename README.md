@@ -35,7 +35,7 @@ This is the web client for the Telpark technical test. It allows you to manage O
 Create a `.env` file in the root of the project with the following content:
 
 ```
-VITE_API_BASE_URL=http://localhost:3000/api
+VITE_API_BASE_URL=http://localhost:8080/api
 ```
 
 Adjust the URL if your API runs on a different port or path.
