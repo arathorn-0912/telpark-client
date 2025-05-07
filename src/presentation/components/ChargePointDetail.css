@@ -1,0 +1,34 @@
+.chargepoint-detail-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 2rem 2.5rem;
+  margin: 2rem auto;
+  max-width: 400px;
+  text-align: left;
+}
+.chargepoint-detail-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.chargepoint-detail-info {
+  margin-bottom: 1.5rem;
+}
+.chargepoint-detail-actions {
+  display: flex;
+  gap: 1rem;
+}
+.chargepoint-detail-actions button {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  background: #2d72d9;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.chargepoint-detail-actions button:hover {
+  background: #174ea6;
+} 

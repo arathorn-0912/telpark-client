@@ -1,0 +1,43 @@
+.chargepoint-list-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+.chargepoint-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.chargepoint-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.chargepoint-list-table th, .chargepoint-list-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+.chargepoint-list-table th {
+  background: #f5f5f5;
+  font-weight: 600;
+}
+.chargepoint-list-actions button {
+  margin-right: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background: #2d72d9;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.chargepoint-list-actions button:last-child {
+  margin-right: 0;
+}
+.chargepoint-list-actions button:hover {
+  background: #174ea6;
+} 
